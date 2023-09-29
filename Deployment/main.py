@@ -78,6 +78,9 @@ def scaler_block(df_original, df_current, company):
 # Título
 st.markdown("<h1 style='text-align: center;'>Global Stock Predictions</h1>", unsafe_allow_html=True)
 
+# Imagen
+st.image("Images/banner.png")
+
 # Multiselector de compañías
 selected_company=st.sidebar.selectbox("Companies", dic_com.keys(), index=0)
 #Botones de métricas
@@ -183,7 +186,7 @@ st.plotly_chart(fig)
 
 # Gráfico de columnas
 dic_inverse={v:c for c, v in dic_com.items()}
-df_bar=df3.copy()
+df_bar=df3[(df3.Date>=start_date)&(df3.Date<=end_date)]
 df_bar["Company"]=df_bar.id_company.apply(lambda x: dic_inverse[x])
 df_bar=df_bar.groupby("Company")["Volume"].sum().reset_index().sort_values(by="Volume", ascending=False)
 
