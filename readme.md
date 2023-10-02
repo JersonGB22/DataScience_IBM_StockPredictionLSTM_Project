@@ -16,7 +16,8 @@ Key beneficiaries of this short-term stock price forecasting project include ind
 
 For detailed information on the project's steps, decisions, and conclusions, please refer to the [**Documentation**](https://github.com/JersonGB22/DataScience_IBM_StockPredictionLSTM_Project/tree/main/Documentation), which is based on The Lightweight IBM Cloud Garage Method for Data Science.
 
-## ***[Link to the Final Product of the Project](https://datascience-ibmstockpredictionlstmproject-jersonbgb.streamlit.app/)***
+## ***[Link to the Final Product of the Project](https://datascience-ibmstockpredictionlstmproject-jersonbgb.streamlit.app/)***           
+## ***[Link to the Explanatory Video](https://www.youtube.com/watch?v=6Ml33YNitew)***
 
 ## **Technological Stack**
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://docs.python.org/3/) 
